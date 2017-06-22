@@ -12,6 +12,7 @@
 		B111ADC81EFA87BF0009376D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B111ADC61EFA87BF0009376D /* Main.storyboard */; };
 		B111ADCA1EFA87BF0009376D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B111ADC91EFA87BF0009376D /* Assets.xcassets */; };
 		B111ADCD1EFA87BF0009376D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B111ADCB1EFA87BF0009376D /* LaunchScreen.storyboard */; };
+		B14F71B51EFBDA7C00E7A3DD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14F71B41EFBDA7C00E7A3DD /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B111ADC91EFA87BF0009376D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B111ADCC1EFA87BF0009376D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B111ADCE1EFA87BF0009376D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14F71B41EFBDA7C00E7A3DD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B111ADC21EFA87BF0009376D /* AppDelegate.swift */,
 				B111ADC41EFA87BF0009376D /* ViewController.swift */,
+				B14F71B41EFBDA7C00E7A3DD /* TableViewController.swift */,
 				B111ADC61EFA87BF0009376D /* Main.storyboard */,
 				B111ADC91EFA87BF0009376D /* Assets.xcassets */,
 				B111ADCB1EFA87BF0009376D /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B111ADC51EFA87BF0009376D /* ViewController.swift in Sources */,
+				B14F71B51EFBDA7C00E7A3DD /* TableViewController.swift in Sources */,
 				B111ADC31EFA87BF0009376D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				B111ADD31EFA87BF0009376D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
